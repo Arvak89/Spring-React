@@ -1,0 +1,32 @@
+.profile {
+    &__welcome {
+        font-size: 40px;
+    }
+
+    &__auth {
+        font-size: 20px;
+        color: #e71ce7;
+    }
+}
+
+.info {
+
+    &__label {
+        color: #626161;
+        font-size: 18px;
+    }
+}
+
+.content {
+
+    &__title {
+        font-size: 40px;
+        width: 50%;
+        margin: 20px 0px;
+    }
+
+    &__text {
+        font-size: 18px;
+        width: 75%;
+    }
+}

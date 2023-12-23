@@ -1,0 +1,32 @@
+.modal {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.modal__window {
+  background: red;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: white;
+  transition: 0.5s;
+  position: relative;
+}
+.modal__close-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.modal_active {
+  display: flex;
+}
+
+/*# sourceMappingURL=modal.css.map */

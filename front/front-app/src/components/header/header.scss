@@ -1,0 +1,45 @@
+
+.header {
+  height: 50px;
+  font-size: 18px;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+
+  &__image {
+    height: 40px;
+    width: 40px;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  &__name {
+    margin-left: 5px;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 20px;
+  }
+
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__buttons {
+
+  }
+
+  &__login {
+    margin-left: 5px;
+  }
+
+  &__sign-up {
+  }
+}

@@ -1,0 +1,45 @@
+.form {
+  font-size: 20px;
+}
+.form__item {
+  margin-bottom: 20px;
+}
+.form__title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.form__input {
+  margin-top: 5px;
+  border-radius: 5px;
+  border: black 2px solid;
+}
+.form__error {
+  color: #f65757;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.form__button {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.no-account__link {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  color: #28de28;
+  cursor: pointer;
+}
+
+.exist-account__link {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  color: #28de28;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=form.css.map */

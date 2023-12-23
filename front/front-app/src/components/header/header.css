@@ -1,0 +1,38 @@
+.header {
+  height: 50px;
+  font-size: 18px;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+.header__image {
+  height: 40px;
+  width: 40px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.header__name {
+  margin-left: 5px;
+}
+.header__menu {
+  display: flex;
+  gap: 20px;
+}
+.header__log-in {
+  display: inline-flex;
+  padding: 8px 20px;
+  border-radius: 25px;
+  background: var(--Light-background-color, #FFF);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.2px;
+  font-family: Inter, sans-serif;
+}
+.header__item {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=header.css.map */
